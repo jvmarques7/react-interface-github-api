@@ -7,7 +7,10 @@ const Header = () => {
   const [usernameForSearch, setUsernameForSearch] = useState();
 
   const submitGetUser = () => {
-    if (!usernameForSearch) return;
+    if (!usernameForSearch){ 
+      alert("Nome do usuário é necessário para a pesquisa! Insira um nome.") 
+      return
+    }
     return getUser(usernameForSearch);
   };
 

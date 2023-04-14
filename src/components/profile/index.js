@@ -29,12 +29,6 @@ const Profile = () => {
             <h3>Location:</h3>
             <span>{githubState.user.location}</span>
           </S.WrapperUserGeneric>
-          <S.WrapperUserGeneric>
-            <h3>Blog:</h3>
-            <a href={githubState.user.blog} target="_blank" rel="noreferrer">
-              {githubState.user.blog}
-            </a>
-          </S.WrapperUserGeneric>
         </div>
         <S.WrapperStatusCount>
           <div>

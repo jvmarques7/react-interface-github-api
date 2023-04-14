@@ -57,8 +57,10 @@ const GithubProvider = ({ children }) => {
             public_repos: data.public_repos,
           },
         }));
-      })
-      .finally(() => {
+      }).catch((e)=>{
+        alert("Nenhum usuário encontrado!")
+        throw(e)
+      }).finally(() => {
         setGithubState((prevState) => ({
           ...prevState,
           loading: !prevState.loading,
