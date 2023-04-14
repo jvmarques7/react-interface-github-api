@@ -16,6 +16,8 @@ We will create an application using the github public api.
 
 ### Preview
 
+The project was deployed on Netify [link](https://main--visionary-pasca-fa7cc4.netlify.app)
+
 Print of the finished project.
 
 ![plot](./image/snapshot-1.png)
